@@ -10,6 +10,3 @@ def ispalindrome(stringtocheck):
         elif stringtocheck[start] != stringtocheck[end]:
             return print(False)    
     return print(True)
-                                 
-string = "anana"
-ispalindrome(string)
