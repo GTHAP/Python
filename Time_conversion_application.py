@@ -34,6 +34,3 @@ def timeconversion(timeinput):
             militarytime = str.replace(militarytime, militarytime[0], "2", 1)
             militarytime = str.replace(militarytime, militarytime[1], "3", 1)
             return print (militarytime)
-            
-timeinput = "07:00:19PM"
-timeconversion(timeinput)
